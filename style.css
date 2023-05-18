@@ -116,122 +116,103 @@ padding-right: 10px;
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 375px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* height: 50vw; */
+    }
     
-} 
-
-@media screen and (min-width: 375px){
-    .body{
-    background-color: hsl(30, 38%, 92%); 
-}
-
-.container {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    background-color:  hsl(30, 38%, 92%);
-}
-
-.card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: 50vw; */
-    height: 800px;
-    width: 650px;
-    border: none;
-    border-radius: 10px;
-}
-
-#product-image {
-    height: 510px;
-    width: 330px;
-    border-radius: 10px 0px 0px 10px;
-}
-
-.product-text {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    height: 510px;
-    width: 330px;
-    justify-content: center;
-    padding: 0 28px;
-    background-color: white;
-    border-radius: 0 10px 10px 0;
-}
-
-.perfume {
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: hsl(228, 12%, 48%);
-    /* font-weight: 400; */
-}
-
-.gabrielle {
-    display: flex;
-    margin: 0;
-    font-family:'Fraunces';
-    font-size: 35px;
-}
-
-.paragraph {
-    display: flex;
-    margin-bottom: 0;
-    font-size: 14px;
-    line-height:22px;
-    font-family: 'Montserrat', sans-serif;
-    color:hsl(228, 12%, 48%);
-}
-
-.price-container {
-    display: flex;
-    margin: 0;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    background-color: white;
-}
-
-.sale-price {
-    font-family: "Fraunces";
-    color: hsl(158, 36%, 37%);
-    font-size:xx-large;
-}
-
-.list-price {
-    padding-left: 30px;
-    font-size: small;
-    text-decoration: line-through;
-    color: hsl(228, 12%, 48%);
-}
-
-.button {
-    padding: 15px 1px;
-    background-color:#1A4031;
-    border: none;
-    border-radius: 15px;
-    font-family: "montserrat", sans-serif;
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.icon {
-padding-right: 10px;
-}
-
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%);
+    #product-image {
+        height: 250px;
+        width: 350px;
+        padding-top: 4px;
+        border-radius: 10px 0px 0px 10px;
+        content:url(./images/image-product-mobile.jpg)
+    }
+    
+    .product-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        height: 510px;
+        width: 330px;
+        justify-content: center;
+        padding: 0 28px;
+        background-color: white;
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .perfume {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: hsl(228, 12%, 48%);
+        /* font-weight: 400; */
+    }
+    
+    .gabrielle {
+        display: flex;
+        margin: 0;
+        font-family:'Fraunces';
+        font-size: 35px;
+    }
+    
+    .paragraph {
+        display: flex;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height:22px;
+        font-family: 'Montserrat', sans-serif;
+        color:hsl(228, 12%, 48%);
+    }
+    
+    .price-container {
+        display: flex;
+        margin: 0;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: white;
+    }
+    
+    .sale-price {
+        font-family: "Fraunces";
+        color: hsl(158, 36%, 37%);
+        font-size:xx-large;
+    }
+    
+    .list-price {
+        padding-left: 30px;
+        font-size: small;
+        text-decoration: line-through;
+        color: hsl(228, 12%, 48%);
+    }
+    
+    .button {
+        padding: 15px 1px;
+        background-color:#1A4031;
+        border: none;
+        border-radius: 15px;
+        font-family: "montserrat", sans-serif;
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .icon {
+    padding-right: 10px;
+    }
+    
+    .attribution { 
+        font-size: 11px; 
+        text-align: center; 
+    }
+    
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
 }
 }
