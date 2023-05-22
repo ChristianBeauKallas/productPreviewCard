@@ -133,6 +133,7 @@ padding-right: 10px;
     height: 250px;
     width: 100%;
     border-radius: 10px 10px 0 0;
+    content: url(images/image-product-mobile.jpg);
 }
 
 .product-text {
